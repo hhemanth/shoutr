@@ -5,8 +5,4 @@
 <% end %>
 
 <br>
-<% @shouts.each do |shout| %>
-  <div>
-    <%= shout.body %> - <%=shout.username %>
-  </div>
-<% end %>
+<%= render @shouts %>
